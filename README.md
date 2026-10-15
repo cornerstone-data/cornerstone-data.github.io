@@ -12,5 +12,6 @@ Don't edit dataset folders by hand; they are overwritten on each deploy. To add 
 
 ## Setup
 
-- Settings → Pages: deploy from branch `main`, folder `/`; custom domain `docs.cornerstonedata.org`; enforce HTTPS.
+- Settings → Pages: deploy from branch `main`, folder `/`.
+- Custom domain: once the DNS record below exists, add a `CNAME` file containing `docs.cornerstonedata.org` (or set it in Settings → Pages) and enforce HTTPS. Adding it before DNS is in place would redirect the site to a domain that doesn't resolve yet.
 - DNS (managed by Watershed): `CNAME docs → cornerstone-data.github.io`.
