@@ -8,6 +8,9 @@
     <loc>http://localhost:3000/intro/what-is-eeio</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/intro/cornerstone-eeio-history</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/io</loc>
   </url>
   <url>
